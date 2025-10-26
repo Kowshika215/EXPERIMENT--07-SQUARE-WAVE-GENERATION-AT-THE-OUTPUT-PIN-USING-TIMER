@@ -215,6 +215,7 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
 <img width="1039" height="655" alt="image" src="https://github.com/user-attachments/assets/1cec521f-f167-44b1-bf1b-4447f3846089" />
+
 ```
 TON = 1 x 50 x 10^-6
     = 0.00005
@@ -232,7 +233,9 @@ DUTY CYCLE = TON /(TON+TOFF)
            = 90 %
 
 ```
+
 <img width="1044" height="658" alt="image" src="https://github.com/user-attachments/assets/e7df086d-43c0-489d-ad71-f6f6b23d641f" />
+
 ```
 TON = 3 x 10 x 10^-6
     = 0.00003
@@ -249,7 +252,9 @@ DUTY CYCLE = TON /(TON+TOFF)
       IN % =0.5*100 
            = 50 %
 ```
+
 <img width="1032" height="657" alt="image" src="https://github.com/user-attachments/assets/60832c8f-51df-468e-acd6-4ca2cd88bfb3" />
+
 ```
 TON = 4 x 10 x 10^-6
     = 0.00004
@@ -266,6 +271,7 @@ DUTY CYCLE = TON /(TON+TOFF)
       IN % =0.7*100 
            = 70 %
 ```
+
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
 
